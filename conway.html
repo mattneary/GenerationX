@@ -1,0 +1,13 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Conway's Game of Life</title>
+	</head>
+	<body>
+		<canvas id="cvs" width="500" height="500"></canvas>
+		<script src="automaton.js"></script>
+		<script>			
+			(new Automaton2d(document.getElementById('cvs'), "01101")).draw();
+		</script>
+	</body>
+</html>
